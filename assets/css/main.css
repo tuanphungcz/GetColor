@@ -162,5 +162,5 @@ svg {
 
 
 #invisibleInput {
-  display: none;
+   opacity: .01
 }
