@@ -56,10 +56,10 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #404040;
-  
+
   font-size: 29px;
   text-align: center;
-  
+
   margin-top: 10px;
   margin-bottom: 0;
 }
@@ -74,7 +74,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #b7b7b7;
-  
+
   font-size: 17px;
   text-align: center;
   margin-top: 0;
@@ -83,13 +83,13 @@ h2 {
 .copy-color {
   /* get color */
   background-color: #754f44;
-  
+
   height: 50px;
   width: 210px;
   border-radius: 25px;
   margin-top: 18px;
   margin-right: 20px;
-  
+
   float: right;
 }
 /* =================================
@@ -103,32 +103,33 @@ END OF JQUERIES
 ================================= */
 
 
-.colorhex {
+#colorhex {
   color: #fff;
-  
+
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  
+
   margin: 0;
   padding-top: 7px;
   padding-left: 25px;
-  
+
   float: left;
   }
 
-.copybtn {
+#copybtn {
   color: #fff;
-  
+  cursor: pointer;
+
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   opacity: 0.5;
-  
+
   margin: 0;
   padding-top: 14px;
   padding-right: 25px;
-  
+
   float: right;
   }
 
@@ -144,10 +145,10 @@ li {
   text-align: center;
   text-decoration: none;
   float: left;
-  
+
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  
+
   margin-left: 20px;
   font-size: 17px;
   color: #b7b7b7;
@@ -157,4 +158,9 @@ li {
 svg {
   margin-top: 55px;
   margin-bottom: 15px;
+}
+
+
+#invisibleInput {
+  display: none;
 }
