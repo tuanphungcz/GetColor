@@ -39,7 +39,7 @@
     </div>
 
     <div class="block">
-      <div class="copy-color">
+      <div id="copy-color">
         <p id="colorhex">#fff</p>
         <p id="copybtn">copy</p>
         <input id='invisibleInput'>
@@ -169,6 +169,7 @@
       </div>
       <script>
         var pallete = document.getElementById('pallete')
+        var copyColor = document.getElementById('copy-color')
         var colorHex = document.getElementById("colorhex")
         var invisibleInput = document.getElementById("invisibleInput")
         var copybtn = document.querySelector("#copybtn")
@@ -183,8 +184,9 @@
 
           colorHex.innerHTML = fill;
           invisibleInput.value = fill;
+          copyColor.style.backgroundColor = fill
         }, false);
-        
+
         copybtn.onclick = function() {
           invisibleInput.select();
           document.execCommand('copy');
